@@ -1,5 +1,4 @@
 -- Бібліотечна система - База даних
--- Курсова робота
 
 -- Видалення старих об'єктів для чистого запуску
 DROP VIEW IF EXISTS active_loans;
@@ -282,4 +281,5 @@ INSERT INTO book_instances (book_id, inventory_number) VALUES
 
 INSERT INTO readers (full_name, ticket_number, phone_number, email) VALUES
 ('Медвідь Богдан', 'R-001', '0501234567', 'medvid@email.com'),
+
 ('Стародуб Михайло', 'R-002', '0509876543', 'starodub@email.com');
